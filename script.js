@@ -115,7 +115,7 @@ if (isOldEnough) {
 }
 */
 
-
+/*
 const age = 15;
 
 if (age >= 18) {
@@ -178,3 +178,92 @@ if (favourite === 23) {
 }else{
         console.log(`number  is not found`)
 }
+*/
+
+
+//Day 3
+/*
+
+const hasDriversLicens = true; // A
+const hasGoodVision = false; // B
+
+console.log(hasDriversLicens && hasGoodVision); // A AND B
+console.log(hasDriversLicens || hasGoodVision);  // A OR B
+console.log(!hasGoodVision); // NOT B = !B
+
+if (hasDriversLicens && hasGoodVision) {
+    console.log('victor should drive')
+} else {
+    console.log('victor should not dirve')
+}
+
+const isTired = true; // C
+console.log(hasDriversLicens && hasGoodVision || isTired)
+
+
+*/
+//challenge
+
+//Test 1
+/*
+const averageDolphins = ((96 + 108 + 89 )/ 3);
+const averageKoalas = ((88 + 91 + 110 )/ 3);
+
+if(averageDolphins > averageKoalas && averageDolphins >= 100 ) {
+    console.log('Dolphins wins the competions');
+}  else if(averageKoalas > averageDolphins && averageKoalas >= 100 ){
+    console.log('Koalas wins the competitions');
+}else if (averageDolphins === averageKoalas && averageDolphins >= 100 && averageKoalas >= 100) {
+    console.log('Both teams are equal');
+} else {
+    console.log('No one wins');
+}
+
+//Test 2
+
+const scoreDolphins = ((97 + 112 + 81 )/ 3);
+const scoreKoalas = ((109 + 95 + 86 )/ 3);
+
+if(scoreDolphins > scoreKoalas && scoreDolphins >= 100 ) {
+    console.log('Dolphins wins the competions');
+} else if(scoreKoalas > scoreDolphins && scoreKoalas >= 100 ){
+    console.log('Koalas wins the competitions');
+}else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+    console.log('Both teams are equal');
+} else {
+    console.log('No one wins');
+}
+*/
+
+// switch statement 
+
+const day = 'monday';
+
+switch (day) {
+    case 'monday':
+        console.log('plan well');
+        break;
+        case 'Tuesday':
+            console.log('eat well');
+            break;
+    case 'wednesdays':
+    case 'thursday':
+        console.log('code well')
+        break;
+    default:
+        console.log('not a valid day')                
+}
+
+
+
+// if else statements
+if (day) {
+    console.log('plan well')
+} else if (day === 'tuseday') {
+   console.log('eat well')
+}else if(day === 'wednesday' || day === 'thursday') {
+    console.log('code well')
+}else {
+    console.log('not a valid day')
+}
+
