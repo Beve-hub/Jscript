@@ -236,7 +236,7 @@ if(scoreDolphins > scoreKoalas && scoreDolphins >= 100 ) {
 */
 
 // switch statement 
-
+/*
 const day = 'monday';
 
 switch (day) {
@@ -267,3 +267,19 @@ if (day) {
     console.log('not a valid day')
 }
 
+
+// Day 4
+
+//conditional operators
+const age = 23;
+// age >= 18 ? console.log('i like wine') : console.log('i like water');
+
+const drink = age >= 18 ? 'i like wine' : 'i like water';
+console.log(drink);
+\*/
+
+//challenge
+
+const bill = 275;
+const tip  = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2 ;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
