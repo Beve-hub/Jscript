@@ -70,6 +70,8 @@ input{
     height: 80px;
     font-size: 50px;
     padding-left: 40px;
+    background: #333;
+    color: #eee;
 }
 
  
